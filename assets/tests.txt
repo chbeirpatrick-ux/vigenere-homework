@@ -1,0 +1,13 @@
+$ python -m unittest -v
+test_case_and_punctuation (test_vigenere.CipherTests.test_case_and_punctuation) ... ok
+test_documented_permutation_example (test_vigenere.CipherTests.test_documented_permutation_example) ... ok
+test_exact_round_trips (test_vigenere.CipherTests.test_exact_round_trips) ... ok
+test_invalid_inputs (test_vigenere.CipherTests.test_invalid_inputs) ... ok
+test_non_self_inverse_order (test_vigenere.CipherTests.test_non_self_inverse_order) ... ok
+test_random_round_trips (test_vigenere.CipherTests.test_random_round_trips) ... ok
+test_standard_known_vector (test_vigenere.CipherTests.test_standard_known_vector) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.009s
+
+OK

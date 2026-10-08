@@ -1,0 +1,40 @@
+$ python vigenere.py
+VIGENERE CIPHER + ROW/COLUMN PERMUTATIONS
+Preserves case, spaces and punctuation.
+
+Mode (E=encrypt, D=decrypt, Q=quit): E
+Plaintext: ATTACKATDAWN
+Secret keyword (A-Z): LEMON
+Number of columns: 4
+Grid: 3 rows x 4 columns.
+Enter rounds in ENCRYPTION order, even when decrypting.
+Number of permutation rounds: 2
+Round 1 type (row/column): column
+Order (1 through 4, separated by spaces): 3 1 4 2
+Round 2 type (row/column): row
+Order (1 through 3, separated by spaces): 2 3 1
+
+After Vigenere:
+  'LXFOPVEFRNHR'
+
+Padded grid:
+  'LXFO'
+  'PVEF'
+  'RNHR'
+
+After round 1 (column):
+  'FLOX'
+  'EPFV'
+  'HRRN'
+
+After round 2 (row):
+  'EPFV'
+  'HRRN'
+  'FLOX'
+
+COPY THIS ENTIRE CIPHERTEXT PACKET:
+{"version":1,"length":12,"columns":4,"ciphertext":"EPFVHRRNFLOX"}
+Keep the keyword and permutation orders for decryption.
+
+Mode (E=encrypt, D=decrypt, Q=quit): Q
+Goodbye!
